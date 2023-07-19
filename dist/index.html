@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Data to firebase</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form class="schoolForm"> 
+        <h1>XYZ College/School<br> Student Registration From</h1>
+        <label for="pic" id="stud-name">Student Image</label>
+        <input type="file" id="file" >
+        <label for="" style="padding-top: 30px;"> (Less than 5 mb) </label><br><br>
+    
+    
+            <label for="sname" >Student Name:</label>
+            <input id="ali" type="text" placeholder="Full Name" name="sname"><br> 
+            <label for="fname">Father Name:</label>
+            <input id="ali" type="text" placeholder="Father Name" name="fname"><br> 
+            <label for="mname">Mother Name:</label>
+            <input id="ali" name="mname" type="text" placeholder="Mother Name"><br> 
+            <label for="gender" style="margin-right: 40px;" >Gender:</label>
+            Male <input type="radio" value="Male" name="gender"> 
+            Female<input type="radio" value="Female" name="gender">
+            Other<input type="radio" value="Other" name="gender"><br>
+            <label for="dob">Date Of Birth:</label>
+            <input id="ali" name="dob" type="date" placeholder="dd/mm/yyy"><br>
+            <label for="email">E-mail:</label>
+            <input id="ali" name="email" type="email" placeholder="email@xy.com"><br>
+            <label for="level">Level:</label>
+            <select name="level"  id="">
+                <option value="None name="level"">None</option>
+                <option value="High School" name="level">High school</option>
+                <option value="College" name="level">College</option>
+                <option value="Universty" name="level">Universty</option>
+            </select><br><br>
+            <label for="department">Department:</label>
+            <select name="department"  id="" >
+                <option value="None" name="department">None</option>
+                <option value="Electrical Engineering" name="department">Electrical Engineering</option>
+                <option value="Software Engineering" name="department">Software Engineering</option>
+            </select><b><br>
+                <label for="phone">Tel/Mobile:</label>
+                <input id="ali" name="phone" type="number" placeholder="xxx xxx xxxx"><br>
+                <input id="ali" value="Submit" type="submit">
+            </form>
+    <script src="./bundle.js"></script>
+</body>
+</html>
